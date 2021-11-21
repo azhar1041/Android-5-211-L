@@ -24,10 +24,10 @@ class MainActivity : AppCompatActivity() {
             val nama = namaeditText.text.toString()
             var sks = skseditText.text.toString().toInt()
             sks = 160 - sks
-            Toast.makeText("sks...$sks", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"sks...$sks", Toast.LENGTH_SHORT).show()
         }
         batalButton.setOnClickListener{
-            Toast.makeText(, "batal", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"batal", Toast.LENGTH_SHORT).show()
 
         }
     }
