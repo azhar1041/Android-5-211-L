@@ -57,16 +57,27 @@
         android:layout_height="wrap_content"
         android:hint="isi dengan jumlah sks yg diambil"
         android:inputType="number"
-   <Button
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            >
+            <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="SIMPAN"
+                android:backgroundTint="@color/success"
+                android:drawableLeft="@drawable/ic_baseline_save_24"
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BATAL"
-
-
+        android:backgroundTint="@color/danger"
+        android:drawableLeft="@drawable/ic_baseline_cancel_24"
+        />
 
 </LinearLayout>
