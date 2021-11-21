@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="first_app">first_app</string>
+    <string name="button_yang_panjang">Button yang panjang</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
 </resources>
