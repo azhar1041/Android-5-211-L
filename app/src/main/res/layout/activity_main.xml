@@ -68,6 +68,7 @@
         android:hint="isi dengan jumlah sks yg diambil"
         android:inputType="number"
         android:layout_marginBottom="8dp"
+        android:text="0"
         />
 
         <LinearLayout

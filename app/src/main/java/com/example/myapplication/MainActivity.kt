@@ -25,10 +25,23 @@ class MainActivity : AppCompatActivity() {
             var sks = skseditText.text.toString().toInt()
             sks = 160 - sks
             Toast.makeText(this,"sks...$sks", Toast.LENGTH_SHORT).show()
+
+
+            val intent = intent(createPackageContext this,ResultActivity::class.java)
+            intent.putExtra(nama:"nama",nama)
+            intent.putExtra(nama:"Email",email)
+            intent.putExtra(nama:"sks",sks)
+            startActivity(intent)
         }
         batalButton.setOnClickListener{
             Toast.makeText(this,"batal", Toast.LENGTH_SHORT).show()
 
         }
     }
+
+    private fun intent(activity: MainActivity, java: Class<ResultActivity>): Any {
+
+    }
+
+
 }
