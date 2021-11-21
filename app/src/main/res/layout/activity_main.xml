@@ -14,6 +14,7 @@
         android:text="nama" />
 
     <EditText
+        android:id="@+id/namaeditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="isi nama lengkap"
@@ -25,6 +26,7 @@
         android:text="email"
         />
     <EditText
+        android:id="@+id/emaileditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="isi dengan email valid"
@@ -36,6 +38,7 @@
     android:text="nomer hp"
     />
     <EditText
+        android:id="@+id/hpeditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="isi dengan yg aktif"
@@ -47,6 +50,7 @@
         android:text="tanggal lahir"
         />
     <EditText
+        android:id="@+id/tgleditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="isi tgl lahir"
@@ -58,6 +62,7 @@
         android:text="jumlah sks"
         />
     <EditText
+        android:id="@+id/skseditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="isi dengan jumlah sks yg diambil"
@@ -72,6 +77,7 @@
             android:gravity="end"
             >
             <Button
+                android:id="@+id/simpanButton"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="SIMPAN"
@@ -80,6 +86,7 @@
                 android:layout_marginEnd="8dp"
 
     <Button
+        android:id="@+id/batalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BATAL"
